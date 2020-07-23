@@ -4,6 +4,11 @@ This package defines aliases to [Windows Data types](https://docs.microsoft.com/
 
 [![](https://img.shields.io/badge/docs-latest-blue.svg)](https://musm.github.io/WinTypes.jl/dev)
 
+### Installation
+```julia
+pkg] add WinTypes
+```
+
 
 ## Why?
 
