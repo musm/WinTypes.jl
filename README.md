@@ -2,6 +2,7 @@
 
 This package defines aliases to [Windows Data types](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types).
 
+[![](https://img.shields.io/badge/docs-stable-blue.svg)]
 
 ## Why?
 
