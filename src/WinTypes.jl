@@ -62,17 +62,17 @@ const INT = Cint
 const PHANDLE = Ptr{HANDLE}
 const PVOID = Ptr{Cvoid}
 const LPVOID = Ptr{Cvoid}
-const PWCHAR = Ptr{WCHAR}
-const PWORD = Ptr{WORD}
-const LPWORD = Ptr{WORD}
-const PDWORD = Ptr{DWORD}
-const LPDWORD = Ptr{DWORD}
 const SHORT = Cshort
 const UCHAR = Cuchar
 const USHORT = Cushort
 const VOID = Cvoid
 const WCHAR = Cwchar_t
 const WORD = Cushort
+const PWCHAR = Ptr{WCHAR}
+const PWORD = Ptr{WORD}
+const LPWORD = Ptr{WORD}
+const PDWORD = Ptr{DWORD}
+const LPDWORD = Ptr{DWORD}
 
 
 const PSTR = Ptr{CHAR} # char*
