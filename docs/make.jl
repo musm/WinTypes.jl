@@ -2,10 +2,10 @@ using WinTypes
 using Documenter
 
 makedocs(;
-    modules=[Test],
+    modules=[WinTypes],
     authors="Mustafa Mohamad <mus-m@outlook.com> and contributors",
-    repo="https://github.com/musm/Test.jl/blob/{commit}{path}#L{line}",
-    sitename="Test.jl",
+    repo="https://github.com/musm/WinTypes.jl/blob/{commit}{path}#L{line}",
+    sitename="WinTypes.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://musm.github.io/WinTypes.jl",
@@ -17,5 +17,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/musm/Test.jl",
+    repo="github.com/musm/WinTypes.jl",
 )
