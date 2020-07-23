@@ -1,5 +1,5 @@
 ```@meta
-CurrentModule = Test
+CurrentModule = WinTypes
 ```
 
 # WinTypes
@@ -8,5 +8,5 @@ CurrentModule = Test
 ```
 
 ```@autodocs
-Modules = [Test]
+Modules = [WinTypes]
 ```
