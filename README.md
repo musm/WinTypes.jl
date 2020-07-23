@@ -7,8 +7,9 @@ This package defines aliases to [Windows Data types](https://docs.microsoft.com/
 
 ## Why?
 
-This makes it easier to translate Windows function from MSDN documentation and
-increases readability.
+This makes it easier/quicker/more convenient to translate Windows API function from Julia
+and also improves readability with respect to the original function definitions in the
+Windows API.
 
 Here's an example comparing calling Windows API functions with and without `WinTypes`:
 
