@@ -2,11 +2,12 @@
 
 This package defines aliases to [Windows Data types](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types).
 
-[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://musm.github.io/WinTypes.jl/dev)
+[![](https://img.shields.io/badge/docs-blue.svg)](https://musm.github.io/WinTypes.jl/stable)
+
 
 ### Installation
 ```julia
-pkg] add WinTypes
+pkg> add WinTypes
 ```
 
 

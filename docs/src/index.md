@@ -12,7 +12,7 @@ Windows API.
 
 First install the package:
 ```julia
-]add WinTypes
+pkg> add WinTypes
 ```
 
 Here's an example comparing calling Windows API functions with and without `WinTypes`:
@@ -144,9 +144,9 @@ LPCWSTR = Ptr{WCHAR} # const wchar_t*
 ```
 
 
-# Detailed References
+# Detailed Definitions
 
-Below we include detailed documentation for some of the aliases defined in this package.
+Below we include detailed documentation for a few of the aliases defined in this package.
 We refer to
 [https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
 for those not included below.
