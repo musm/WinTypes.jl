@@ -8,12 +8,13 @@ This package makes it easier/quicker/more convenient to translate Windows API fu
 and also improves readability with respect to the original function definitions in the
 Windows API.
 
-## Usage
+## Installation
 
-First install the package:
 ```julia
 pkg> add WinTypes
 ```
+
+## Usage & Examples
 
 Here's an example comparing calling Windows API functions with and without `WinTypes`:
 

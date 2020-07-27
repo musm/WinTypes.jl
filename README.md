@@ -6,10 +6,10 @@ This package defines aliases to [Windows Data types](https://docs.microsoft.com/
 
 
 ### Installation
+
 ```julia
 pkg> add WinTypes
 ```
-
 
 ## Why?
 
