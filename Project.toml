@@ -1,7 +1,7 @@
 name = "WinTypes"
 uuid = "7ce832dc-6953-4c0f-9163-51fbd0dcbc24"
 authors = ["Mustafa Mohamad <mus-m@outlook.com> and contributors"]
-version = "0.1.0"
+version = "0.1.1"
 
 [compat]
 julia = "1"
