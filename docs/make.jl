@@ -17,5 +17,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/musm/WinTypes.jl.git",
+    repo="github.com/musm/WinTypes.jl.git", push_preview = false,
 )
