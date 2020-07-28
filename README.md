@@ -11,7 +11,7 @@ This package defines aliases to [Windows Data types](https://docs.microsoft.com/
 pkg> add WinTypes
 ```
 
-## Why?
+### Why?
 
 This makes it easier/quicker/more convenient to translate Windows API function from Julia
 and also improves readability with respect to the original function definitions in the
