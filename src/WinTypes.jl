@@ -312,7 +312,7 @@ VOID
 """
     const WCHAR = Cwchar_t
 
-A 16-bit Unicode character.
+A 16-bit Unicode character. test
 
 This type is declared in `WinNT.h` as follows:
 
