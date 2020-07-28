@@ -58,5 +58,5 @@ BOOL WINAPI GetConsoleMode(
 );
 ```
 
-As you can see, the call to these APIs using `WinTypes` is easier to translate and
+As you can see, the call to these APIs using `WinTypes` is simpler and
 directly translatable without manually looking up the myriad Windows data types.
