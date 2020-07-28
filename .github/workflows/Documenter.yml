@@ -1,7 +1,9 @@
 name: Documentation
 on:
-  - push
-  - pull_request
+  push:
+    branches: '*'
+    tags: '*'
+  pull_request:
 jobs:
   docs:
     name: Documentation
