@@ -9,7 +9,7 @@ This package defines aliases to [Windows Data types](https://docs.microsoft.com/
 
 ```julia
 pkg> add WinTypes
-```
+```fdas
 
 ## Why?
 
