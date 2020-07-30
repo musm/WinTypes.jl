@@ -2,7 +2,7 @@
 CurrentModule = WinTypes
 ```
 
-# WinTypes
+# WinTypes.jl
 
 This package makes it easier/quicker/more convenient to translate Windows API function from Julia
 and also improves readability with respect to the original function definitions in the
