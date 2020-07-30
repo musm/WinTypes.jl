@@ -1,4 +1,4 @@
-# WinTypes
+# WinTypes.jl
 
 This package defines aliases in Julia to [Windows Data types](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types).
 
