@@ -44,13 +44,13 @@ end
 
 Finally, here are the corresponding Windows API function syntax definitions in `C`:
 
-```
+```c
 HANDLE WINAPI GetStdHandle(
   _In_ DWORD nStdHandle
 );
 ```
 
-```
+```c
 BOOL WINAPI GetConsoleMode(
   _In_  HANDLE  hConsoleHandle,
   _Out_ LPDWORD lpMode
@@ -66,7 +66,7 @@ directly translatable without manually looking up the myriad Windows data types.
 The aliases defined in this package are provided below. Refer to
 [https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
 for detailed documentation on each constant.
-```
+```julia
 FALSE     = Cint(0)
 TRUE      = Cint(1)
 
