@@ -14,12 +14,12 @@ function get_console_mode()
     dwMode = Ref{UInt32}()
     ccall(:GetConsoleMode, stdcall, Int32, (Ref{Cvoid}, Ref{UInt32}), hOutput, dwMode)
     return dwMode[]
-end</code></pre><p>Finally, here are the corresponding Windows API function syntax definitions in <code>C</code>:</p><pre><code class="language-none">HANDLE WINAPI GetStdHandle(
+end</code></pre><p>Finally, here are the corresponding Windows API function syntax definitions in <code>C</code>:</p><pre><code class="language-c">HANDLE WINAPI GetStdHandle(
   _In_ DWORD nStdHandle
-);</code></pre><pre><code class="language-none">BOOL WINAPI GetConsoleMode(
+);</code></pre><pre><code class="language-c">BOOL WINAPI GetConsoleMode(
   _In_  HANDLE  hConsoleHandle,
   _Out_ LPDWORD lpMode
-);</code></pre><p>As you can see, the call to these APIs using <code>WinTypes</code> is easier to translate and directly translatable without manually looking up the myriad Windows data types.</p><h2 id="Alias-List"><a class="docs-heading-anchor" href="#Alias-List">Alias List</a><a id="Alias-List-1"></a><a class="docs-heading-anchor-permalink" href="#Alias-List" title="Permalink"></a></h2><p>The aliases defined in this package are provided below. Refer to <a href="https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types">https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types</a> for detailed documentation on each constant.</p><pre><code class="language-none">FALSE     = Cint(0)
+);</code></pre><p>As you can see, the call to these APIs using <code>WinTypes</code> is easier to translate and directly translatable without manually looking up the myriad Windows data types.</p><h2 id="Alias-List"><a class="docs-heading-anchor" href="#Alias-List">Alias List</a><a id="Alias-List-1"></a><a class="docs-heading-anchor-permalink" href="#Alias-List" title="Permalink"></a></h2><p>The aliases defined in this package are provided below. Refer to <a href="https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types">https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types</a> for detailed documentation on each constant.</p><pre><code class="language-julia">FALSE     = Cint(0)
 TRUE      = Cint(1)
 
 BYTE      = Cuchar
