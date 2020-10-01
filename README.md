@@ -13,9 +13,8 @@ pkg> add WinTypes
 
 ## Motivation & Examples
 
-This makes it easier/quicker/more convenient to translate Windows API function from Julia
-and also improves readability with respect to the original function definitions in the
-Windows API.
+The point of this package is to make it easier and more convenient to translate Windows API function calls
+from Julia, and to improve readability with respect to the original function definitions in the Windows API.
 
 Here's an example comparing calling Windows API functions with and without `WinTypes`:
 
@@ -58,8 +57,8 @@ BOOL WINAPI GetConsoleMode(
 );
 ```
 
-As you can see, the call to these APIs using `WinTypes` is simpler and
-directly translatable without manually looking up the myriad Windows data types.
+The call to these APIs using `WinTypes` is simpler and
+easier to wrap, without manually looking up the corresponding Windows data types in Julia.
 
 
 
